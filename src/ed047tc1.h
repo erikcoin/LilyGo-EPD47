@@ -43,19 +43,19 @@ extern "C" {
 
 #elif CONFIG_IDF_TARGET_ESP32S3
 
-/* Config Reggister Control */
+/* Config Reggister Control CFG_CLK=ok */
 #define CFG_DATA GPIO_NUM_13
-#define CFG_CLK GPIO_NUM_16 #?
+#define CFG_CLK GPIO_NUM_16
 #define CFG_STR GPIO_NUM_0
 
-/* Control Lines */
-#define CKV GPIO_NUM_18 # ok
+/* Control Lines CKV is ok */
+#define CKV GPIO_NUM_18
 #define STH GPIO_NUM_40
 
 /* Edges */
 #define CKH GPIO_NUM_41
 
-/* Data Lines */
+/* Data Lines ok*/
 #define D7 GPIO_NUM_10
 #define D6 GPIO_NUM_8
 #define D5 GPIO_NUM_11
