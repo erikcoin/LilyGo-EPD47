@@ -48,12 +48,12 @@ extern "C" {
 #define CFG_CLK GPIO_NUM_16
 #define CFG_STR GPIO_NUM_0
 
-/* Control Lines CKV is ok */
+/* Control Lines is ok */
 #define CKV GPIO_NUM_18
-#define STH GPIO_NUM_40
+#define STH GPIO_NUM_13
 
-/* Edges */
-#define CKH GPIO_NUM_41
+/* Edges is ok*/
+#define CKH GPIO_NUM_16
 
 /* Data Lines ok*/
 #define D7 GPIO_NUM_10
