@@ -45,25 +45,25 @@ extern "C" {
 
 /* Config Reggister Control */
 #define CFG_DATA GPIO_NUM_13
-#define CFG_CLK GPIO_NUM_12
+#define CFG_CLK GPIO_NUM_16 #?
 #define CFG_STR GPIO_NUM_0
 
 /* Control Lines */
-#define CKV GPIO_NUM_38
+#define CKV GPIO_NUM_18 # ok
 #define STH GPIO_NUM_40
 
 /* Edges */
 #define CKH GPIO_NUM_41
 
 /* Data Lines */
-#define D7 GPIO_NUM_7
-#define D6 GPIO_NUM_6
-#define D5 GPIO_NUM_5
-#define D4 GPIO_NUM_4
-#define D3 GPIO_NUM_3
-#define D2 GPIO_NUM_2
-#define D1 GPIO_NUM_1
-#define D0 GPIO_NUM_8
+#define D7 GPIO_NUM_10
+#define D6 GPIO_NUM_8
+#define D5 GPIO_NUM_11
+#define D4 GPIO_NUM_9
+#define D3 GPIO_NUM_12
+#define D2 GPIO_NUM_7
+#define D1 GPIO_NUM_14
+#define D0 GPIO_NUM_6
 
 #else
     #error "Unknown SOC"
